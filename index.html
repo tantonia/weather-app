@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style/index.css">
+
+    <title>Weather App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="center">
+            <div class="bot-gap">
+                <span class="title">Current Weather</span>
+            </div>
+            <div class="card">
+                <div class="search">
+                    <input type="text" placeholder="Enter city name" autofocus spellcheck="false"/>
+                    <button type="button"><img src="./img/search.png"></button>
+                </div>
+                <div class="error">
+                    <p>Invalid city name</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="weather">
+            <div class="city">Athens</div>
+            <div class="today" id="current-temp">
+                <div class="day">Sunday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            </div>
+            <div class="temp">
+                <p></p>
+                <div class="temp_max">High  16&#176 C</div>
+                <div class="temp_min">Low  14&#176 C</div>
+                <div class="humidity">Humidity</div>
+            </div>
+
+        </div>
+    </div>
+    <script type="module" src="./js/index2.js"></script>
+</body>
+</html>
