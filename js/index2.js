@@ -1,7 +1,5 @@
-const apiKey = '8bc5ef86fecd2100164e70a70eff36ae';
-const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=';
-//TODO
-// const geocodingApiKey = 'AIzaSyAhnur3j5IyxNIZRgjG6YIBE11Z4e7IGXg'
+const apiKey = '';
+const apiUrl = '';
 
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
